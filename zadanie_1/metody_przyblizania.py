@@ -4,6 +4,7 @@ def iterator_metody(wzor_na_c, funkcja, przedzial_poszukiwan, warunek_stopu, war
     iteracje = 0
     wynik = None
     while wynik is None:
+        # Dodac warunek, czy znaleziono miejsce zerowa = 0
         c = wzor_na_c(a, b)
         iteracje += 1
         if warunek_stopu == 1 and abs(funkcja(c)) < wartosc_warunku_stopu:

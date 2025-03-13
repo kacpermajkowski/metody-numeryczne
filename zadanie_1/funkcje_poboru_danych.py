@@ -39,17 +39,11 @@ def pobierz_liczby_rzeczywiste(ilosc):
     liczby = tuple(liczby)
     return liczby
 
-
-from zadanie_1.definicje_funkcji import \
-    pobierz_funkcje_wielomianowa, \
-    pobierz_funkcje_trygonometryczna, \
-    pobierz_funkcje_wykladnicza
-
 def wybierz_funkcje():
-    # from zadanie_1.definicje_funkcji import \
-    #     funkcja_wielomianowa, \
-    #     funkcja_trygonometryczna, \
-    #     funkcja_wykladnicza
+    from zadanie_1.definicje_funkcji import \
+        pobierz_funkcje_wielomianowa, \
+        pobierz_funkcje_trygonometryczna, \
+        pobierz_funkcje_wykladnicza
 
     funkcja = None
     while funkcja is None:
@@ -128,6 +122,10 @@ def drukuj_liste_string(lista_string):
         print(string)
 
 def wybor_skladania_funkcji():
+    from zadanie_1.definicje_funkcji import \
+        pobierz_funkcje_wielomianowa, \
+        pobierz_funkcje_trygonometryczna, \
+        pobierz_funkcje_wykladnicza
     print("Wybierz dwie różne funkcje do składania:")
     print("1 - Wielomianowa")
     print("2 - Trygonometryczna")

@@ -1,7 +1,6 @@
 import math
 
-from zadanie_1.funkcje_poboru_danych import pobierz_liczbe_calkowita, pobierz_liczbe_rzeczywista, \
-    pobierz_wspolczynniki_wielomianu, pobierz_liczby_rzeczywiste
+from zadanie_1.funkcje_poboru_danych import pobierz_wspolczynniki_wielomianu, pobierz_liczby_rzeczywiste
 from zadanie_1.funkcje_pomocnicze import oblicz_wartosc_wielomianu
 
 #Funkcje

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="" />
+    <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/metody_przyblizania.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_1/metody_przyblizania.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +76,7 @@
       <updated>1741850783290</updated>
       <workItem from="1741850784336" duration="617000" />
       <workItem from="1741851487963" duration="966000" />
-      <workItem from="1741852801243" duration="10630000" />
+      <workItem from="1741852801243" duration="12352000" />
     </task>
     <servers />
   </component>
