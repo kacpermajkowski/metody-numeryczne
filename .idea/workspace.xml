@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="" />
+    <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/funkcje_poboru_danych.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_1/funkcje_poboru_danych.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +77,7 @@
       <workItem from="1741850784336" duration="617000" />
       <workItem from="1741851487963" duration="966000" />
       <workItem from="1741852801243" duration="12352000" />
-      <workItem from="1741871795821" duration="843000" />
+      <workItem from="1741871795821" duration="1539000" />
     </task>
     <servers />
   </component>
@@ -82,9 +85,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/metody_numeryczne$funkcje_poboru_danych.coverage" NAME="funkcje_poboru_danych Coverage Results" MODIFIED="1741855583939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
-    <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1741855658051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$funkcje_poboru_danych.coverage" NAME="funkcje_poboru_danych Coverage Results" MODIFIED="1741872609873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1741873235404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/numerki1$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1741850861630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/metody_numeryczne$definicje_funkcji.coverage" NAME="definicje_funkcji Coverage Results" MODIFIED="1741855384285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$definicje_funkcji.coverage" NAME="definicje_funkcji Coverage Results" MODIFIED="1741872559254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
   </component>
 </project>

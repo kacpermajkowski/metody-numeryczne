@@ -50,13 +50,15 @@ def wybierz_funkcje():
         drukuj_liste_string(MENU_WYBORU_FUNKCJI)
         wybor = pobierz_liczbe_calkowita()
 
-        funkcje = {
-            1: pobierz_funkcje_wielomianowa(),
-            2: pobierz_funkcje_trygonometryczna(),
-            3: pobierz_funkcje_wykladnicza(),
-            4: wybor_skladania_funkcji()
-        }
-        funkcja = funkcje[wybor]
+        if wybor == 1:
+            funkcja = pobierz_funkcje_wielomianowa()
+        if wybor == 2:
+            funkcja = pobierz_funkcje_trygonometryczna(),
+        if wybor == 3:
+            funkcja = pobierz_funkcje_wykladnicza()
+        if wybor == 4:
+            funkcja = wybor_skladania_funkcji()
+
         if(funkcja is None):
             print("Niepoprawny wybór, spróbuj ponownie.")
     return funkcja
