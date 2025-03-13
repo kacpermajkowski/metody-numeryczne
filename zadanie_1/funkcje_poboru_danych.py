@@ -1,5 +1,5 @@
 
-menuWyboruFunkcji = [
+MENU_WYBORU_FUNKCJI = [
     "Wybierz funkcję:",
     "1 - Wielomianowa",
     "2 - Trygonometryczna",
@@ -7,10 +7,14 @@ menuWyboruFunkcji = [
     "4 - Złożenie funkcji"
 ]
 
+MENU_WARUNKU_STOPU = [
+    "Wybierz warunek stopu:",
+    "1 - Dokładność epsilon",
+    "2 - Maksymalna liczba iteracji"
+]
+
 def wybierz_warunek_stopu():
-    print("Wybierz warunek stopu:")
-    print("1 - Dokładność epsilon")
-    print("2 - Maksymalna liczba iteracji")
+    drukuj_liste_string(MENU_WARUNKU_STOPU)
 
     wybor = None
     while wybor not in [1, 2]:
@@ -54,9 +58,8 @@ def wybor_funkcji():
 
     funkcja = None
     while funkcja is None:
-        drukujListeString(menuWyboruFunkcji)
+        drukuj_liste_string(MENU_WYBORU_FUNKCJI)
         wybor = pobierz_liczbe_calkowita()
-
 
         funkcje = {
             1: funkcja_wielomianowa(),
@@ -81,22 +84,22 @@ def pobierz_przedzial_poszukiwan():
     return a, b
 
 def pobierz_liczbe_iteracji():
-    liczbaIteracji = None
-    while liczbaIteracji is None or liczbaIteracji <= 0:
-        liczbaIteracji = pobierz_liczbe_calkowita()
-        if liczbaIteracji <= 0:
+    liczba_iteracji = None
+    while liczba_iteracji is None or liczba_iteracji <= 0:
+        liczba_iteracji = pobierz_liczbe_calkowita()
+        if liczba_iteracji <= 0:
             print("Liczba iteracji musi być większa od zera.")
-    return liczbaIteracji
+    return liczba_iteracji
 
 
 def epsilon():
-    wartoscE = None
-    while wartoscE is None or wartoscE <= 0:
-        wartoscE = pobierz_liczbe_rzeczywista()
-        if wartoscE <= 0:
+    epsilon = None
+    while epsilon is None or epsilon <= 0:
+        epsilon = pobierz_liczbe_rzeczywista()
+        if epsilon <= 0:
             print("Epsilon musi być większy od zera.")
-    return wartoscE
+    return epsilon
 
-def drukujListeString(stringList):
-    for string in stringList:
+def drukuj_liste_string(lista_string):
+    for string in lista_string:
         print(string)
