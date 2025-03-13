@@ -1,4 +1,4 @@
-from czas_wykonania import wyswietl_czas_wykonania
+from zadanie_1.czas_wykonania import wyswietl_czas_wykonania
 from zadanie_1.funkcje_poboru_danych import wybierz_funkcje, wybierz_przedzial_poszukiwan, wybierz_warunek_stopu
 from zadanie_1.metody_przyblizania import bisekcja, falsi
 from zadanie_1.wykresy import rysuj_wykres
