@@ -1,19 +1,21 @@
+
 def iterator_metody(wzor_na_c, funkcja, przedzial_poszukiwan, warunek_stopu, wartosc_warunku_stopu):
     a, b = przedzial_poszukiwan
     iteracje = 0
-    while True:
+    wynik = None
+    while wynik is None:
         c = wzor_na_c(a, b)
         iteracje += 1
         if warunek_stopu == 1 and abs(funkcja(c)) < wartosc_warunku_stopu:
-            print(f"Przybliżenie Nazwa wykonane zostalo po {iteracje} iteracjach ")
-            return c
+            wynik = c
         if warunek_stopu == 2 and iteracje >= wartosc_warunku_stopu:
-            print(f"Przybliżenie Nazwa wykonane zostalo po {iteracje} iteracjach ")
-            return c
+            wynik = c
         if funkcja(a) * funkcja(c) < 0:
             b = c
         else:
             a = c
+    print(f"Przybliżenie Nazwa ukonczone zostalo po {iteracje} iteracjach ")
+    return wynik
 
 def bisekcja(funkcja, przedzial_poszukiwan, warunek_stopu, wartosc_warunku_stopu):
     c = lambda a, b: (a+b)/2
