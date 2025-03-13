@@ -53,7 +53,7 @@ def wybierz_funkcje():
         if wybor == 1:
             funkcja = pobierz_funkcje_wielomianowa()
         if wybor == 2:
-            funkcja = pobierz_funkcje_trygonometryczna(),
+            funkcja = pobierz_funkcje_trygonometryczna()
         if wybor == 3:
             funkcja = pobierz_funkcje_wykladnicza()
         if wybor == 4:
