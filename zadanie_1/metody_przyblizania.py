@@ -1,5 +1,5 @@
 
-def iterator_metody(wzor_na_c, funkcja, przedzial_poszukiwan, warunek_stopu):
+def iterator_metody(wzor_na_c, funkcja, przedzial_poszukiwan, warunek_stopu, nazwa_metody):
     typ_warunku_stopu, wartosc_warunku_stopu = warunek_stopu
     a, b = przedzial_poszukiwan
     iteracje = 0
@@ -15,16 +15,16 @@ def iterator_metody(wzor_na_c, funkcja, przedzial_poszukiwan, warunek_stopu):
             b = c
         else:
             a = c
-    print(f"Przybliżenie Nazwa ukonczone zostalo po {iteracje} iteracjach ")
+    print(f"Przybliżenie {nazwa_metody} ukonczone zostalo po {iteracje} iteracjach ")
     return wynik
 
 def bisekcja(funkcja, przedzial_poszukiwan, warunek_stopu):
     c = lambda a, b: (a+b)/2
-    return iterator_metody(c, funkcja, przedzial_poszukiwan, warunek_stopu)
+    return iterator_metody(c, funkcja, przedzial_poszukiwan, warunek_stopu, "biekcja")
 
 def falsi(funkcja, przedzial_poszukiwan, warunek_stopu):
-    c = lambda a, b: b - (funkcja(b) * (a - b)) / (funkcja(a) - funkcja(b))
-    return iterator_metody(c, funkcja, przedzial_poszukiwan, warunek_stopu)
+    c = lambda a, b: (funkcja(b) * a - funkcja(a)*b ) / (funkcja(b) - funkcja(a))
+    return iterator_metody(c, funkcja, przedzial_poszukiwan, warunek_stopu, "falsi")
 
 def sprawdz_warunek_zmiany_znaku(funkcja, przedzial_poszukiwan):
     a, b = przedzial_poszukiwan
