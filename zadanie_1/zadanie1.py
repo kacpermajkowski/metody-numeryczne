@@ -14,8 +14,8 @@ def main():
     print(f"Bisekcja: {wynik_bisekcja}")
     print(f"Reguła Falsi: {wynik_falsi}")
 
-    rysuj_wykres(badana_funkcja, przedzial_poszukiwan, wynik_bisekcja)
-    rysuj_wykres(badana_funkcja, przedzial_poszukiwan, wynik_falsi)
+    wyniki = [wynik_bisekcja, wynik_falsi]
+    rysuj_wykres(badana_funkcja, przedzial_poszukiwan, wyniki)
 
 if __name__ == "__main__":
     main()
