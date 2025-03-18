@@ -156,6 +156,7 @@ def wybor_skladania_funkcji():
     print("2 - f(x) = f1(x) * f2(x)")
     print("3 - f(x) = f2(f1(x))")
     print("4 - f(x) = f1(f2(x))")
+    print("Funkcje 1 i 2 to nie są technicznie złożenia funkcji, ale uznaliśmy że warto je dodać")
 
     wybor_skladania = pobierz_liczbe_calkowita()
 
