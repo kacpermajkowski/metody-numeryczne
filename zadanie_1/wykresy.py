@@ -2,13 +2,26 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def rysuj_wykres(funkcja, przedzial, miejsce_zerowe):
+colors = {
+    0: "red",
+    1: "blue",
+    2: "green",
+    3: "yellow",
+    4: "orange",
+    5: "purple",
+    6: "black",
+    7: "pink",
+    8: "brown",
+    9: "gray"
+}
+
+def rysuj_wykres(funkcja, przedzial, miejsca_zerowe):
     a, b = przedzial
     x = np.linspace(a, b, 400)
     y = np.array([funkcja(xi) for xi in x])
     plt.plot(x, y, label="Funkcja")
-    if miejsce_zerowe is not None:
-        plt.scatter(miejsce_zerowe, 0, color='red', label=f'Miejsce zerowe: {miejsce_zerowe:.4f}')
+    for i, x0 in enumerate(miejsca_zerowe):
+        plt.scatter(x0, 0, color=colors[i], label=f'Miejsce zerowe: {x0:.4f}')
     plt.axhline(0, color='black', linewidth=0.5)
     plt.axvline(0, color='black', linewidth=0.5)
     plt.title("Wykres funkcji")
