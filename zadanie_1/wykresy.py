@@ -15,7 +15,7 @@ colors = {
     9: "gray"
 }
 
-def rysuj_wykres(funkcja, przedzial, miejsca_zerowe):
+def rysuj_wykres(funkcja, przedzial, miejsca_zerowe, funkcja_jako_tekst):
     a, b = przedzial
     x = np.linspace(a, b, 400)
     y = np.array([funkcja(xi) for xi in x])
@@ -24,7 +24,10 @@ def rysuj_wykres(funkcja, przedzial, miejsca_zerowe):
         plt.scatter(x0, 0, color=colors[i], label=f'Miejsce zerowe: {x0:.4f}')
     plt.axhline(0, color='black', linewidth=0.5)
     plt.axvline(0, color='black', linewidth=0.5)
-    plt.title("Wykres funkcji")
+    title = "Wykres funkcji"
+    if funkcja_jako_tekst:
+        title += f": {funkcja_jako_tekst}"
+    plt.title(title)
     plt.xlabel("x")
     plt.ylabel("f(x)")
     plt.legend()

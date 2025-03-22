@@ -4,7 +4,7 @@ from zadanie_1.metody_przyblizania import bisekcja, falsi
 from zadanie_1.wykresy import rysuj_wykres
 
 def main():
-    badana_funkcja = wybierz_funkcje()
+    badana_funkcja, rodzaj_funkcji = wybierz_funkcje()
     przedzial_poszukiwan = wybierz_przedzial_poszukiwan()
 
     parametry = (badana_funkcja, przedzial_poszukiwan, wybierz_warunek_stopu())
@@ -15,7 +15,7 @@ def main():
     print(f"Reguła Falsi: {wynik_falsi}")
 
     wyniki = [wynik_bisekcja, wynik_falsi]
-    rysuj_wykres(badana_funkcja, przedzial_poszukiwan, wyniki)
+    rysuj_wykres(badana_funkcja, przedzial_poszukiwan, wyniki, rodzaj_funkcji)
 
 if __name__ == "__main__":
     main()

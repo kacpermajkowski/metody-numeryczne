@@ -46,22 +46,27 @@ def wybierz_funkcje():
         pobierz_funkcje_wykladnicza
 
     funkcja = None
+    rodzaj = None
     while funkcja is None:
         drukuj_liste_string(MENU_WYBORU_FUNKCJI)
         wybor = pobierz_liczbe_calkowita()
 
         if wybor == 1:
             funkcja = pobierz_funkcje_wielomianowa()
+            rodzaj = "wielomianowa"
         if wybor == 2:
             funkcja = pobierz_funkcje_trygonometryczna()
+            rodzaj = "trygonometryczna"
         if wybor == 3:
             funkcja = pobierz_funkcje_wykladnicza()
+            rodzaj = "wykładnicza"
         if wybor == 4:
             funkcja = wybor_skladania_funkcji()
+            rodzaj = "złożenie funkcji"
 
         if(funkcja is None):
             print("Niepoprawny wybór, spróbuj ponownie.")
-    return funkcja
+    return funkcja, rodzaj
 
 def pobierz_wspolczynniki_wielomianu():
     print("Podaj stopień wielomianu: ")

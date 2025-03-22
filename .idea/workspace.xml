@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="okej">
+      <change afterPath="$PROJECT_DIR$/zadanie_1/szablon_sprawozdania_poprawka.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/metody_numeryczne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/metody_numeryczne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/funkcje_poboru_danych.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_1/funkcje_poboru_danych.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/wykresy.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_1/wykresy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/zadanie1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_1/zadanie1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/~$ablon_sprawozdania.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_1/~WRL0005.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +37,12 @@
     &quot;assignee&quot;: &quot;CKLG-afk&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kacpermajkowski/metody-numeryczne.git&quot;,
-    &quot;accountId&quot;: &quot;6c295ce6-c819-47e4-b7e8-4798a73a0c37&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kacpermajkowski/metody-numeryczne",
+    "accountId": "43ec0528-37c8-4738-afbf-74027391bb4f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -53,7 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/majkosia/PycharmProjects/metody_numeryczne",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/metody-numeryczne/zadanie_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\metody-numeryczne\zadanie_1" />
       <recent name="C:\Users\majkosia\PycharmProjects\numerki1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,8 +84,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
-        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
       </set>
     </attachedChunks>
   </component>
@@ -94,6 +104,7 @@
       <workItem from="1741875325244" duration="721000" />
       <workItem from="1741974615341" duration="1814000" />
       <workItem from="1742297690390" duration="967000" />
+      <workItem from="1742649792072" duration="3166000" />
     </task>
     <task id="LOCAL-00001" summary="okej">
       <option name="closed" value="true" />
@@ -125,11 +136,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="okej" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/metody_numeryczne$funkcje_poboru_danych.coverage" NAME="funkcje_poboru_danych Coverage Results" MODIFIED="1742651939901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$metody_przyblizania.coverage" NAME="metody_przyblizania Coverage Results" MODIFIED="1741976173020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
-    <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1742321698897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
-    <SUITE FILE_PATH="coverage/metody_numeryczne$wykresy.coverage" NAME="wykresy Coverage Results" MODIFIED="1742298501427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/numerki1$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1741850861630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$wykresy.coverage" NAME="wykresy Coverage Results" MODIFIED="1742298501427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$definicje_funkcji.coverage" NAME="definicje_funkcji Coverage Results" MODIFIED="1741873263725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
-    <SUITE FILE_PATH="coverage/metody_numeryczne$funkcje_poboru_danych.coverage" NAME="funkcje_poboru_danych Coverage Results" MODIFIED="1741873124221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1742653116942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
   </component>
 </project>
