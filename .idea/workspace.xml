@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="okej">
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/e.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/g.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/h.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/i.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/uklady/j.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/wczytaj_uklad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/wypisz_rozwiazanie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie_2/zadanie_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/metody_numeryczne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/metody_numeryczne.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie_2/szablon_sprawozdania_drugiego.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,29 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.definicje_funkcji.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funkcje_poboru_danych.executor&quot;: &quot;Run&quot;,
-    &quot;Python.metody_przyblizania.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wykresy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zadanie1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/metody-numeryczne/zadanie_1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.definicje_funkcji.executor": "Run",
+    "Python.funkcje_poboru_danych.executor": "Run",
+    "Python.metody_przyblizania.executor": "Run",
+    "Python.wykresy.executor": "Run",
+    "Python.zadanie1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/CKLG/PycharmProjects/metody-numeryczne/zadanie_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CKLG\PycharmProjects\metody-numeryczne\zadanie_2" />
       <recent name="C:\Users\user\PycharmProjects\metody-numeryczne\zadanie_1" />
       <recent name="C:\Users\majkosia\PycharmProjects\numerki1" />
     </key>
@@ -111,7 +98,7 @@
       <workItem from="1741974615341" duration="1814000" />
       <workItem from="1742297690390" duration="967000" />
       <workItem from="1742649792072" duration="3166000" />
-      <workItem from="1744123813548" duration="983000" />
+      <workItem from="1744123813548" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="okej">
       <option name="closed" value="true" />
