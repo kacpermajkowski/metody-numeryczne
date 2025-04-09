@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="okej">
-      <change afterPath="$PROJECT_DIR$/zadanie_2/szablon_sprawozdania_drugiego.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +97,7 @@
       <workItem from="1741974615341" duration="1814000" />
       <workItem from="1742297690390" duration="967000" />
       <workItem from="1742649792072" duration="3166000" />
-      <workItem from="1744123813548" duration="2669000" />
+      <workItem from="1744123813548" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="okej">
       <option name="closed" value="true" />
