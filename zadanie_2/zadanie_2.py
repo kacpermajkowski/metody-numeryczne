@@ -45,7 +45,7 @@ def interpretuj_rozwiazanie(A):
     return "Układ oznaczony", rozwiązanie
 
 if __name__ == "__main__":
-    nazwa_pliku = "zadanie_2/uklady/i.txt"
+    nazwa_pliku = "zadanie_2/uklady/k.txt"
     macierz = wczytaj_uklad_z_pliku(nazwa_pliku)
     A_po_jordanie = eliminacja_jordana(macierz.copy())
     status, rozwiazanie = interpretuj_rozwiazanie(A_po_jordanie)
