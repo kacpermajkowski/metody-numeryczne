@@ -76,13 +76,6 @@ def get_function():
     return f, func_name, file_func_name
 
 def lagrange_interpolation(x_nodes, y_nodes, x):
-    """
-    Oblicza wartość wielomianu interpolacyjnego Lagrange'a P(x) w punktach x.
-    Parametry:
-      x_nodes, y_nodes – węzły interpolacji i wartości funkcji w tych węzłach
-      x – punkt lub tablica punktów, w których liczymy P(x).
-    Zwraca wartości P(x) (jako tablicę numpy).
-    """
     x = np.array(x, dtype=float)
     x_nodes = np.array(x_nodes, dtype=float)
     y_nodes = np.array(y_nodes, dtype=float)
@@ -96,8 +89,6 @@ def lagrange_interpolation(x_nodes, y_nodes, x):
                 L_i *= (x - x_nodes[j]) / (x_nodes[i] - x_nodes[j])
         P += y_nodes[i] * L_i
     return P
-
-import numpy as np
 
 def get_from_file():
     print("Czy chcesz wczytać węzły z pliku? (t/n)")
@@ -132,12 +123,11 @@ def get_from_file():
 
 def main():
     is_from_file, x_nodes, y_nodes = get_from_file()
-    n = len(x_nodes)
     f, func_name, file_func_name = None, "punkty danych", "punkty_danych"
     if not is_from_file:
         f, func_name, file_func_name = get_function()
 
-    num_dense = 500
+    num_dense = 5000
     x_dense = []
     y_dense = []
     if is_from_file:
@@ -186,11 +176,11 @@ def main():
     plt.plot(x_nodes, y_nodes, 'ko', label="Węzły interpolacyjne")
     plt.xlabel("x")
     plt.ylabel("y")
-    plt.title(f"Interpolacja Lagrange'a, f(x) = {func_name}, n = {n}")
+    plt.title(f"Interpolacja Lagrange'a, f(x) = {func_name}, n = {len(x_nodes)}")
     plt.legend()
     plt.grid(True)
 
-    filename = f"lagrange_{file_func_name}_n{n}.png"
+    filename = f"lagrange_{file_func_name}_n{len(x_nodes)}.png"
     plt.savefig(filename)
     print(f"Wykres zapisano do pliku '{filename}'")
 

@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd189557-1300-4098-9fd7-e2d47794e942" name="Changes" comment="okej">
-      <change afterPath="$PROJECT_DIR$/zadanie_3/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/metody_numeryczne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/metody_numeryczne.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie_3/szablon_sprawozdania_trzeciego.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie3/funkcje_pomocnicze.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_3/funkcje_pomocnicze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie3/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_3/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie3/zadanie_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_3/zadanie_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_punkty_danych_n10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_punkty_danych_n8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_wielomian_n7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_x_cosinus_n10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_x_cosinus_n15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_x_cosinus_n18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_x_cosinus_n5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/lagrange_x_cosinus_n6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie_3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie_3/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +52,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.definicje_funkcji.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funkcje_poboru_danych.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.metody_przyblizania.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wykresy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zadanie1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zadanie_3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CKLG/PycharmProjects/metody-numeryczne/zadanie3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.definicje_funkcji.executor": "Run",
+    "Python.funkcje_poboru_danych.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.metody_przyblizania.executor": "Run",
+    "Python.wykresy.executor": "Run",
+    "Python.zadanie1.executor": "Run",
+    "Python.zadanie_3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/majkosia/PycharmProjects/metody_numeryczne/zadanie_3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\majkosia\PycharmProjects\metody_numeryczne\zadanie_3" />
       <recent name="C:\Users\CKLG\PycharmProjects\metody-numeryczne\zadanie3" />
       <recent name="C:\Users\CKLG\PycharmProjects\metody-numeryczne\zadanie_2" />
       <recent name="C:\Users\user\PycharmProjects\metody-numeryczne\zadanie_1" />
@@ -110,7 +115,7 @@
       <workItem from="1744165426433" duration="4373000" />
       <workItem from="1745854243020" duration="2978000" />
       <workItem from="1745960658989" duration="236000" />
-      <workItem from="1745971585595" duration="6057000" />
+      <workItem from="1745971585595" duration="11599000" />
     </task>
     <task id="LOCAL-00001" summary="okej">
       <option name="closed" value="true" />
@@ -142,13 +147,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="okej" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/metody_numeryczne$main.coverage" NAME="main Coverage Results" MODIFIED="1745994384958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_3" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$main.coverage" NAME="main Coverage Results" MODIFIED="1746005142856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_3" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$metody_przyblizania.coverage" NAME="metody_przyblizania Coverage Results" MODIFIED="1741976173020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$funkcje_poboru_danych.coverage" NAME="funkcje_poboru_danych Coverage Results" MODIFIED="1742651939901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1742988718891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$wykresy.coverage" NAME="wykresy Coverage Results" MODIFIED="1742298501427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
     <SUITE FILE_PATH="coverage/numerki1$zadanie1.coverage" NAME="zadanie1 Coverage Results" MODIFIED="1741850861630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie_3.coverage" NAME="zadanie_3 Coverage Results" MODIFIED="1745920303281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_3" />
+    <SUITE FILE_PATH="coverage/metody_numeryczne$zadanie_3.coverage" NAME="zadanie_3 Coverage Results" MODIFIED="1745994719820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_3" />
     <SUITE FILE_PATH="coverage/metody_numeryczne$definicje_funkcji.coverage" NAME="definicje_funkcji Coverage Results" MODIFIED="1741873263725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadanie_1" />
   </component>
 </project>
