@@ -1,5 +1,6 @@
 import numpy as np
 from math import exp, sqrt, pi
+import matplotlib.pyplot as plt  # Add this import for plotting
 from zadanie4.funkcje_pomocnicze import oblicz_wartosc_wielomianu
 
 # Funkcje do wyboru
@@ -18,9 +19,13 @@ def f4(x):
 def f5(x):
     return 1 / (1 + x * x) # funkcja Lorentza - 1/(1+x^2)
 
-# Funkcja wagowa dla Simpsona
-def weight(x): return np.exp((-x) * x)
+# Weight function for Simpson's method
+def weight_simpson(x):
+    return 1  # Constant weight for Simpson's method
 
+# Weight function for Gauss-Hermite quadrature
+def weight_hermite(x):
+    return np.exp(-x * x)
 
 # Złożona kwadratura Simpsona z adaptacyjnym podziałem
 def simpson_adaptive(f, a, b, eps):
@@ -44,26 +49,32 @@ def simpson_adaptive(f, a, b, eps):
         prev = curr
 
 
-# Całkowanie od -∞ do +∞ za pomocą Simpsona
-def simpson_infinite(f, eps, delta=5.0):
+def simpson_infinite(f, eps, delta=5.0, max_iterations=1000):
     total = 0
     a = 0
+    iterations = 0
     continue_loop = True
 
-    while continue_loop:
+    # Positive direction
+    while continue_loop and iterations < max_iterations:
         area = simpson_adaptive(f, a, a + delta, eps)
         total += area
         continue_loop = abs(area) >= eps
         a += delta
+        iterations += 1
 
+    # Reset for negative direction
     a = 0
+    iterations = 0
     continue_loop = True
 
-    while continue_loop:
+    # Negative direction
+    while continue_loop and iterations < max_iterations:
         area = simpson_adaptive(f, -a - delta, -a, eps)
         total += area
         continue_loop = abs(area) >= eps
         a += delta
+        iterations += 1
 
     return total
 
@@ -83,14 +94,47 @@ def main():
 
     eps = float(input("Podaj dokładność dla Simpsona (np. 1e-6): "))
 
-    print("\nObliczanie całki za pomocą kwadratury Simpsona (z wagą)...")
-    simpson_result = simpson_infinite(lambda x: f(x) * weight(x), eps)
+    # Input interval for Simpson's method
+    try:
+        a = float(input("Podaj dolną granicę przedziału a: "))
+        b = float(input("Podaj górną granicę przedziału b: "))
+    except ValueError:
+        print("Nieprawidłowe wartości. Używam domyślnie przedziału [0, 1].")
+        a, b = 0.0, 1.0
+
+    print("\nObliczanie całki za pomocą kwadratury Simpsona na podanym przedziale...")
+    simpson_result = simpson_adaptive(lambda x: f(x) * weight_simpson(x), a, b, eps)
     print(f"Wynik kwadratury Simpsona: {simpson_result}")
 
+    print("\nObliczanie całki za pomocą kwadratury Gaussa-Hermite'a...")
     for n in [2, 3, 4, 5]:
-        gh_result = gauss_hermite_quadrature(f, n)
+        gh_result = gauss_hermite_quadrature(f, n)  # Pass f directly, without multiplying by weight_hermite
         print(f"Wynik Gauss-Hermite (n={n}): {gh_result}")
 
+    # Plot the weight function for Gauss-Hermite
+    x_vals = np.linspace(-5, 5, 500)
+    y_vals = [weight_hermite(x) for x in x_vals]
+
+    plt.figure(figsize=(8, 6))
+    plt.plot(x_vals, y_vals, label="Funkcja wagowa $e^{-x^2}$", color="blue")
+    plt.title("Wykres funkcji wagowej dla Gauss-Hermite")
+    plt.xlabel("x")
+    plt.ylabel("Waga")
+    plt.grid(True)
+    plt.legend()
+    plt.show()
+
+    # Plot the selected function
+    y_func_vals = [f(x) for x in x_vals]
+
+    plt.figure(figsize=(8, 6))
+    plt.plot(x_vals, y_func_vals, label=f"Wybrana funkcja f{choice + 1}(x)", color="green")
+    plt.title(f"Wykres funkcji f{choice + 1}(x)")
+    plt.xlabel("x")
+    plt.ylabel("f(x)")
+    plt.grid(True)
+    plt.legend()
+    plt.show()
 
 if __name__ == "__main__":
     main()
