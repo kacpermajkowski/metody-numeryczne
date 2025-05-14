@@ -14,7 +14,7 @@ def f3(x):
     return np.sin(x) #sinus x
 
 def f4(x):
-    return np.exp((-x) * x) # wykladnicza -x^2
+    return np.exp((-x) * x) # wykladnicza e^(-x^2)
 
 def f5(x):
     return 1 / (1 + x * x) # funkcja Lorentza - 1/(1+x^2)
